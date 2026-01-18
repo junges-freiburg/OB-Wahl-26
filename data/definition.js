@@ -136,17 +136,17 @@ const descriptionShowOnStart = 1;
 
 // 	1.6.2. Hauptueberschrift / 1.6.1. Main headline
 
-const descriptionHeading1 = "Fruchtkorbwahlen";
+const descriptionHeading1 = "OB-Wahlen 2026";
 
 
-// 	1.6.3. Zweite Ueberschrift / 1.6.2. Second Headline
+// 	1.6.3. Zweite UeberAm 30. Februar finden in Obsthausen Wahlen statt. Sie können sich hier alle Parteipositionen anschauen und miteinander vergleichenschrift / 1.6.2. Second Headline
 
-const descriptionHeading2 = "Die Wahl zur neuen Regierung in Obsthausen";
+const descriptionHeading2 = "OB-Wahl";
 
 
 // 	1.6.4. Kurzer Text um was es bei der Wahl geht / 1.6.3. Short (descriptive) text on what's the election about
 
-const descriptionExplanation = "Am 30. Februar finden in Obsthausen Wahlen statt. Sie k&ouml;nnen sich hier alle Parteipositionen anschauen und miteinander vergleichen. Dies ist <strong>keine Wahlempfehlung</strong>, sondern ein Informationsangebot zu Wahlen! <br /> Zur Auswahl stehen vier Parteien mit unterschiedlichen Meinungen zu kontroversen Themen der Obst- und Frucht-Landschaft."; 
+const descriptionExplanation = "Am 26. April finden in Freiburg OB-Wahlen statt. Sie k&ouml;nnen sich hier aller anschauen und miteinander vergleichen. Dies ist <strong>keine Wahlempfehlung</strong>, sondern ein Informationsangebot zu Wahlen! <br />"; 
 
 
 // 	--------------------------------------------------------------------
@@ -192,31 +192,25 @@ const descriptionExplanation = "Am 30. Februar finden in Obsthausen Wahlen statt
 
 // 	1.7.B.1: Allgemeines. "Angaben gemäß § 5 TMG" / General information
 
-const imprintGeneral = `<p>Muster e. V.<br /> 
-			Musterstra&szlig;e 111<br />
-			Geb&auml;ude 44<br />
-			90210 Musterstadt</p>
+const imprintGeneral = `<p>Junges Freiburg e. V.<br /> 
+			Rathausplatz 2-4	
+			79098 Freiburg</p>
 
 			<p>Vereinsregister: VR 12 3456<br />
 			Registergericht: Amtsgericht Musterstadt</p>
 
 			<p><strong>Vertreten durch:</strong><br />
-			Vorstand: Dr. Harry Mustermann<br />
-			Luise Beispiel</p>`
+			den Vorstand</p>`
 
 
 // 	1.7.B.2: Kontaktdaten / Contact details
 
-const imprintContact = `<p>Telefon: +49 (0) 123 44 55 66<br />
-			Telefax: +49 (0) 123 44 55 99<br />
-			E-Mail: mustermann@musterfirma.de<br />
-			Web: musterfirma.de</p>`
+const imprintContact = ``
 
 
 //	1.7.B.3: (optional) Umsatzsteuer-ID / (optional) VAT-ID
 
-const imprintVATid = `<p>Umsatzsteuer-Identifikationsnummer gem&auml;&szlig; &sect; 27 a Umsatzsteuergesetz:<br />
-			DE 999 999 999</p>`
+const imprintVATid = ``
 
 
 //	1.7.B.4: 
@@ -247,18 +241,14 @@ const imprintProgramming = `<p>Max Mustermann, Hans Wurst</p>
 //	(optional) Quellenangaben zu den Bildern
 //	(optional) Sources of pictures
 
-const imprintPictures = `<p> Bilder mit freundlicher Genehmigung von / Pictures with permission from: 
-			<br /> Max Mustermann, Foto Franz Frankfurt, Neutrale Partei
-			<br /> Äpfel: Von Glysiak - Eigenes Werk, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=8146365
-			<br /> Bananen: Von Steve Hopson, www.stevehopson.com, CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=1541726
-			<br /> Zitronen: Von André Karwath aka Aka - Eigenes Werk, CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=59992 `;
+const imprintPictures = ``;
 
 
 //	1.7.B.8
 //	(optional) Link zu einer Datenschutzerklaerung beginnend mit http(s):- erlaubt die anonyme Statistik
 //	(optional) Link to a privacy policy starting with http(s):- allows the anonymous statistics
 
-const imprintPrivacyUrl = "https://www.hans-wurst-webdesign-obsthausen.com/datenschutz.html";
+const imprintPrivacyUrl = "";
 
 
 //	--------------------------------------------------------------------
